@@ -1,0 +1,1 @@
+<section class="no-results"><h2><?php esc_html_e( 'Nothing found', 'cg-framework' ); ?></h2><p><?php esc_html_e( 'Try another search or browse the latest posts.', 'cg-framework' ); ?></p><?php get_search_form(); ?></section>

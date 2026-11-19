@@ -1,0 +1,22 @@
+/**
+ * Optional Elementor 3 compatibility layer.
+ *
+ * Keep this file conservative: Elementor owns its generated layout styles.
+ * Add project-specific selectors below rather than globally resetting all
+ * Elementor widgets or containers.
+ */
+.elementor .elementor-element,
+.elementor .elementor-widget {
+	min-width: 0;
+}
+
+.elementor-section .elementor-container {
+	box-sizing: border-box;
+}
+
+.elementor-widget-wrap,
+.elementor-widget-container {
+	min-width: 0;
+}
+
+/* Add site-specific v3 Flexbox Container or legacy widget fixes below. */
